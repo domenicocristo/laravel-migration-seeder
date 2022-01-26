@@ -17,7 +17,7 @@ class CreateArtistsTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('surname');
-            $table->string('stage_name');
+            $table->string('stageName');
             $table->date('dateOfBirth');
             $table->timestamps();
         });
