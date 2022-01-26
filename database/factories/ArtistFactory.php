@@ -10,8 +10,8 @@ $factory->define(Artist::class, function (Faker $faker) {
 
     return [
         'name' => $faker -> name(),
-        'surname' => $faker -> surname(),
-        'stageName' => $faker -> stagename(),
+        'surname' => $faker -> name(),
+        'stageName' => $faker -> name(),
         'dateOfBirth' => $faker -> date(),
     ];
 });
